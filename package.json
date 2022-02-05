@@ -1,0 +1,27 @@
+{
+  "name": "porth",
+  "version": "1.0.0",
+  "description": "Porth",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llamucaandrea/Porth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llamucaandrea/Porth/issues"
+  },
+  "homepage": "https://github.com/llamucaandrea/Porth#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {    
+    "nodemon": "^2.0.15"
+  }
+}
