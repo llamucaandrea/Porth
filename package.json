@@ -19,9 +19,10 @@
   "homepage": "https://github.com/llamucaandrea/Porth#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "pg": "^8.7.3",
     "socket.io": "^4.4.1"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }

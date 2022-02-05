@@ -1,11 +1,18 @@
 body {
     background: #ddd;
+    margin: 0;
+    padding: 0;
+    background: url(./imagen/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
 
 .chat-container {
     max-height: 600px;
     overflow-y: scroll;
     padding: 0px 1.5rem;
+    background-size: cover;
 }
 
 .chat-message {
@@ -15,4 +22,12 @@ body {
 
 .chat-message.me {
     background: #dcf8c6;
+}
+
+.image-chat{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 200px;
+    background-position: right;
 }
